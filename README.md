@@ -43,3 +43,8 @@ If your display is blank, try lowering the SPI frequency:
 - Open platformio.ini
 - Change ```SPI_FREQUENCY``` and ```SPI_READ_FREQUENCY``` to 20MHz
 - Rebuild and upload the FW
+
+## Based on
+
+- LVGL example for WT32-SC01: https://github.com/littleyoda/WT32-SC01-Example-lvgl-arduino-platformio-
+- ESP BLE keyboard: https://github.com/T-vK/ESP32-BLE-Keyboard
